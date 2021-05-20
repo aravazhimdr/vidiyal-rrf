@@ -26,8 +26,8 @@ app.get('/issue', db.getIssue)
 app.post('/issue', db.createIssue)
 
 //test
-router.get('/loadtest', function (req, res) {
-  response.status(200).send("Test page for load testing!!!")
+app.get('/loadtest', function (req, res) {
+  res.status(200).send("Test page for load testing!!!")
 })
 
 app.listen(port, () => {
