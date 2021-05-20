@@ -6,6 +6,7 @@ module.exports = {
     host: "localhost",
     database: "vidiyal",
     password: "123456",
-    port: 5432
+    port: 5432,
+    max: 200
   }
 };
